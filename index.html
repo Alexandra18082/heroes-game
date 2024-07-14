@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heroes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Heroes Game</h1>
+      <div class="btns-container">
+        <!-- if i writer button*2 it will automatically create 2 buttons -->
+        <button class="btn" id="show-heroes">Show Heroes</button>
+        <button class="btn start-fight" id="start-fight">Start Fight</button>
+      </div>
+      <div class="heroes-container">
+        <!-- div.hero-container*3 -->
+        <div class="hero-container">
+          <div class="hero-avatar thor"></div>
+          <div class="hero-details">
+            <span class="hero-name">Thor Odinson</span>
+            <span>Life: 40 HP</span>
+            <span>LVL: 30</span>
+            <span class="special-skill"
+              >Special Skill: Superhuman strength</span
+            >
+          </div>
+        </div>
+        <div class="hero-container">
+          <div class="hero-avatar iron"></div>
+          <div class="hero-details">
+            <span class="hero-name">Iron Man</span>
+            <span>Life: 53 HP</span>
+            <span>LVL: 35</span>
+            <span class="special-skill">Special Skill: Repulsors</span>
+          </div>
+        </div>
+        <div class="hero-container">
+          <div class="hero-avatar captain"></div>
+          <div class="hero-details">
+            <span class="hero-name">Captain America</span>
+            <span>Life: 50 HP</span>
+            <span>LVL: 38</span>
+            <span class="special-skill">Special Skill: SuperSoldier serum</span>
+          </div>
+        </div>
+      </div>
+      <div class="show-winner"></div>
+      <!-- write h1.title to automatically generate the class -->
+    </div>
+
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
